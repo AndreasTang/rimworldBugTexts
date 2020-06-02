@@ -1,0 +1,14 @@
+System.NullReferenceException: Object reference not set to an instance of an object
+  at (wrapper dynamic-method) RimWorld.PawnsArrivalModeWorker_EdgeWalkIn.DMD<DMD<TryResolveRaidSpawnCenter_Patch1>?-1586394496::TryResolveRaidSpawnCenter_Patch1>(RimWorld.PawnsArrivalModeWorker_EdgeWalkIn,RimWorld.IncidentParms)
+  at SometimesRaidsGoWrong.MarvsRandom_RaidEnemy.TryRandomExecuteWorker (RimWorld.IncidentParms parms) [0x00050] in <cc20bf9635a844338cdf0138d8862c06>:0 
+  at SometimesRaidsGoWrong.MarvsRandom_RaidEnemy.TryExecuteWorker (RimWorld.IncidentParms parms) [0x00001] in <cc20bf9635a844338cdf0138d8862c06>:0 
+  at RimWorld.IncidentWorker.TryExecute (RimWorld.IncidentParms parms) [0x0002b] in <0de063f107214aa3839ba3ee388b65f4>:0 
+  at RimWorld.Storyteller.TryFire (RimWorld.FiringIncident fi) [0x00024] in <0de063f107214aa3839ba3ee388b65f4>:0 
+  at RimWorld.IncidentQueue.IncidentQueueTick () [0x00048] in <0de063f107214aa3839ba3ee388b65f4>:0 
+  at RimWorld.Storyteller.StorytellerTick () [0x00000] in <0de063f107214aa3839ba3ee388b65f4>:0 
+  at Verse.TickManager.DoSingleTick () [0x00109] in <0de063f107214aa3839ba3ee388b65f4>:0 
+Verse.Log:Error(String, Boolean)
+Verse.TickManager:DoSingleTick()
+Verse.TickManager:TickManagerUpdate()
+Verse.Game:UpdatePlay()
+Verse.Root_Play:DMD<DMD<Update_Patch1>?1648147840::Update_Patch1>(Root_Play)
